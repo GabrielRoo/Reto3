@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reto 2</title>
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type= "text/javascript" src="js/misFunciones.js"></script>
+
+</head>
+
+<body>
+<h1> Alquiler de nube de computo </h1>
+<h4>Busqueda nube disponible</h4>
+<div id="resultado"></div>
+<button onclick="traerInformacion()">Consultar</button> 
+
+<div> <br>
+    <input type="number" id="id" placeholder="id"> <br>
+    <input type="text" id="brand" placeholder="brand"> <br>
+    <input type="number" id="model" placeholder="model"> <br>
+    <input type="number" id="category_id" placeholder="category_id"> <br>
+    <input type="text" id="name" placeholder="name"> <br>
+</div> <br>
+
+<button onclick="guardarInformacion()"> Guardar </button>
+<button onclick="editarInformacion()"> Actualizar </button>
+
+<h4> Registro de usuarios </h4>
+<div id="resultadoCliente"></div>
+<button onclick="traerInformacionCliente()">Consultar</button> 
+
+<div> <br>
+    <input type="number" id="idcliente" placeholder="id"> <br>
+    <input type="text" id="namecliente" placeholder="name"> <br>
+    <input type="text" id="email" placeholder="email"> <br>
+    <input type="number" id="age" placeholder="age"> <br>
+</div> <br>
+
+<button onclick="guardarInformacionCliente()"> Guardar </button>
+<button onclick="editarInformacionCliente()"> Actualizar </button>
+
+<h4> Registro de mensajes </h4>
+<div id="resultadoMensajes"></div>
+<button onclick="traerMensaje()">Consultar</button> 
+
+<div> <br>
+    <input type="number" id="idmensaje" placeholder="id"> <br>
+    <input type="text" id="messagetext" placeholder="messagetext"> <br>
+<div></div> <br>
+<button onclick="guardarMensaje()"> Guardar </button>
+<button onclick="editarMensaje()"> Actualizar </button>
+</body>
+
+</html>
